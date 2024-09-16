@@ -39,3 +39,26 @@
   font-weight: 10;
   margin: 0;
 }
+.ygear{
+  width: 10rem;
+  position: absolute;
+  top: 18rem;
+  left: 23rem;
+  animation: RotateInfinite 2s infinite;
+}
+.bgear{
+  width: 6rem;
+  position: absolute;
+  top: 27rem;
+  right: 25rem;
+  animation: RotateInfinite 2s infinite;
+}
+
+@keyframes RotateInfinite{
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(20deg);
+  }
+}
