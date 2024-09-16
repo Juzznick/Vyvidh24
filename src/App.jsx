@@ -4,13 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="main-div">
-      h1{
-        Vyvidh24
-      }
+    <div className="hero-div">
+      <div className="hero-sub-div">
+        <h1 className='hero-sub-heading'>techno cultural fest</h1>
+        <h1 className='main-heading'>Vyvidh</h1>
+      </div>
     </div>
   );
 }
