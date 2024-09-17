@@ -5,6 +5,23 @@
 
 *{
   font-family: Griaste;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+body{
+  border: white solid 3rem;
+  animation: Border 3s ease;
+}
+
+@keyframes Border{
+  0%{
+    border: none;
+  }
+  100%{
+    border: white solid 3rem;
+  }
 }
 
 .hero-div{
@@ -15,11 +32,13 @@
   height: 100vh;
   background-color: #EAEAEA;
   flex-direction: column;
+  overflow: hidden;
 }
 .hero-sub-div{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
 }
 .hero-sub-heading{
@@ -38,20 +57,26 @@
   width: 100%;
   font-weight: 10;
   margin: 0;
+  z-index: 1;
 }
 .ygear{
   width: 10rem;
   position: absolute;
-  top: 18rem;
-  left: 23rem;
+  top: 25rem;
+  left: 21rem;
   animation: RotateInfinite 2s infinite;
 }
 .bgear{
   width: 6rem;
   position: absolute;
-  top: 27rem;
+  top: 40rem;
   right: 25rem;
   animation: RotateInfinite 2s infinite;
+  animation: Drop 2s ease;
+}
+
+.hero-vyvidhlogo{
+  width: 40%;
 }
 
 @keyframes RotateInfinite{
@@ -61,4 +86,22 @@
   50%{
     transform: rotate(20deg);
   }
+}
+
+@keyframes Drop{
+  0%{
+    transform: translateY(-20rem);
+  }
+  100%{
+    transform: translateY(0rem);
+  }
+}
+
+.hero-clg-img{
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: -5rem;
+  filter: opacity(20%);
+  z-index: 0;
 }
