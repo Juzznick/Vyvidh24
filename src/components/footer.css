@@ -6,6 +6,11 @@
     height: 40vh;
     background-color: #121924;
     z-index: 3;
+    background-color: #121924;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #131313 12%, transparent 12.5%, transparent 87%, #131313 87.5%, #131313), linear-gradient(150deg, #131313 12%, transparent 12.5%, transparent 87%, #131313 87.5%, #131313), linear-gradient(30deg, #131313 12%, transparent 12.5%, transparent 87%, #131313 87.5%, #131313), linear-gradient(150deg, #131313 12%, transparent 12.5%, transparent 87%, #131313 87.5%, #131313), linear-gradient(60deg, #13131377 25%, transparent 25.5%, transparent 75%, #13131377 75%, #13131377), linear-gradient(60deg, #13131377 25%, transparent 25.5%, transparent 75%, #13131377 75%, #13131377);
+    background-size: 26px 46px;
+    background-position: 0 0, 0 0, 13px 23px, 13px 23px, 0 0, 13px 23px;
 }
 .footer-div h1{
     color: rgb(207, 207, 207);

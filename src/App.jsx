@@ -13,6 +13,7 @@ function App() {
         <img className='ygear' alt="yellowgear" src='img/ygear.png' />
         <img className='bgear' alt='bluegear' src='img/bgear.png' />
         <img alt='clg_image' className='hero-clg-img' src="img/clg.png"/>
+        <div className='curtain'></div>
       </div>
     </div>
   );

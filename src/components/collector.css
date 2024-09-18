@@ -1,0 +1,18 @@
+.collector-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #EAEAEA;
+
+    opacity: 0.8;
+    background: repeating-linear-gradient( 45deg, #74747438, #83838333 5px, #EAEAEA 5px, #EAEAEA 25px );
+}
+
+.collector-div h1{
+    font-size: 9rem;
+    font-weight: 10;
+    color: #4870B7;
+    
+}

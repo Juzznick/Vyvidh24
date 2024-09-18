@@ -1,4 +1,5 @@
 .about-div{
+    padding-top: 10rem;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
