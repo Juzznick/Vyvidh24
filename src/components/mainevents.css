@@ -1,0 +1,62 @@
+
+.mainevent-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #EAEAEA;
+}
+.eventcard img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+.eventcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: white .1rem solid;
+    background-color: rgb(255, 255, 255);
+    width: 23rem;
+    cursor: pointer;
+    position: relative;
+}
+.eventcard h5{
+    font-family: 'Darker Grotesque';
+    font-size: 2rem;
+}
+.eventcard p{
+    font-family: 'Darker Grotesque';
+    font-size: 1.3rem;
+    text-align: center;
+}
+.eventcard-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 2rem 0;
+    min-height: 23rem;
+    position: absolute;
+    bottom: -23rem;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+
+.cards-div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.mainevent-div h1{
+    font-weight: 10;
+    font-size: 10rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    color: #484848;
+}
