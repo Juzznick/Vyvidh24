@@ -49,12 +49,33 @@
 .main-heading{
   color: #E54933;
   font-size: 16rem;
+  height: 14rem;
   display: flex;
   justify-content: center;
   width: 100%;
   font-weight: 10;
   margin: 0;
   z-index: 1;
+}
+
+
+.hero-date{
+  color: #404040;
+  font-size: 4rem;
+  font-family: 'Darker Grotesque';
+  animation: ColorTransit 2s infinite ease;
+}
+
+@keyframes ColorTransit {
+  0%{
+    color: #404040;
+  }
+  50%{
+    color: #0C62AB;
+  }
+  100%{
+    color: #404040;
+  }
 }
 .ygear{
   width: 10rem;
