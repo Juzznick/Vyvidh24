@@ -22,7 +22,7 @@ function MainEvents() {
 
 
     return (
-        <div className="mainevent-div">
+        <div className="mainevent-div" id="main_events">
             <h1>Main Events</h1>
 
 

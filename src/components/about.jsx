@@ -1,7 +1,7 @@
 import './about.css'
 function AboutVidya(){
     return(
-        <div className='about-div'>
+        <div className='about-div' id='about'>
             <h1>About Vidya</h1>
             <p>Vidya Academy of Science & Technology (VAST) is a state-of-the-art engineering college conforming to international standards.
                 This model engineering college is approved by AICTE vide approval NO./06/ KER/ENGG/2002/91 dated 12/05/03 and affiliated to 
