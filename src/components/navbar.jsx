@@ -10,7 +10,7 @@ function Navbar() {
             <div className="navbar-collapse">
                 <ul className="navbar-list">
                     <li className={`nav-item ${active === "home" ? 'active' : ''}`}> 
-                        <a className="nav-link" href="#" onClick={() => setActive('home')}>HOME</a>
+                        <a className="nav-link" href="/#home" onClick={() => setActive('home')}>HOME</a>
                     </li>
                     <li className={`nav-item ${active === "about" ? 'active' : ''}`}>
                         <a className="nav-link" href="/#about" onClick={() => setActive('about')}>ABOUT US</a>

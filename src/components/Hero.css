@@ -7,7 +7,7 @@
   font-family: Griaste;
   margin: 0;
   box-sizing: border-box;
-  z-index: 1;
+  z-index: 0;
 }
 
 @keyframes FadeIn{
@@ -134,8 +134,22 @@
   position: fixed;
   background-color: #ffffff;
   width: 100vw;
+  z-index: 9999;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* animation: CurtainRaise 2s ease;
+  transform: translateY(-90rem); */
+}
+.temp2{
   animation: CurtainRaise 2s ease;
-  transform: translateY(-90rem)
+  transform: translateY(-90rem); 
+}
+.curtain button{
+  font-size: 3rem;
+  padding: .5rem 1rem 1rem 1rem;
+  font-family: 'Darker Grotesque';
 }
 .uparrow{
   position: fixed;
