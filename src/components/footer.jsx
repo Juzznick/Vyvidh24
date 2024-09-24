@@ -1,7 +1,7 @@
 import './footer.css'
 function Footer() {
     return (
-        <div className="footer-div">
+        <div className="footer-div" id='contact'>
             <div className="footer-sub">
                 <h1>Contact</h1>
                 <p>Thalakottukara P.O<br />Kecheri, Thrissur 680501, Kerala, India<br />Phone: +91 4885 287751, 287752<br />Email: principal@vidyaacademy.ac.in</p>

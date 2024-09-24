@@ -1,11 +1,12 @@
 /* General Navbar Styles */
 .navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -101,7 +102,11 @@
 
 
 
-.navbar-list a
+.navbar-list a{
+    font-family: 'Darker Grotesque';
+    font-weight: 800;
+    font-size: 1.2rem;
+}
 
 
 
@@ -166,9 +171,6 @@ a:hover{
     color: var(--primary);
     font-size: 1.5em;
     font-family: 'Raleway', sans-serif;
-    /* text-shadow: 0 0 10px var(--primary),
-                0 0 40px var(--primary),
-                0 0 80px var(--primary); */
 }
 .navbar{
     background-color: var(--background);

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Griaste';
-  src: local('Griaste'), url(../public/fonts/Griaste.otf) format('otf');
+  src: local('Griaste'), url(../public/fonts/Griaste.otf) format('opentype');
 }
 
 *{
@@ -137,6 +137,13 @@
   animation: CurtainRaise 2s ease;
   transform: translateY(-90rem)
 }
+.uparrow{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  rotate: 90deg;
+  z-index: 10;
+}
 
 @keyframes CurtainRaise{
   0%{
@@ -152,13 +159,18 @@
     font-size: 2.2rem;
   }
   .main-heading{
-    font-size: 8rem;
+    font-size: 6.5rem;
     height: 7rem;
   }
   .ygear{
     width: 5rem;
-    left: 23rem;
-    top: 18rem;
+    left: 20rem;
+    top: 16rem;
+  }
+  .bgear{
+    right: 20rem;
+    top: 31rem;
+    width: 5rem;
   }
   .hero-date{
     font-size: 2rem;

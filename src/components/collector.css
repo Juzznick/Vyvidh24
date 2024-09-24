@@ -16,3 +16,15 @@
     color: #4870B7;
     
 }
+
+@media only screen and (max-width: 600px) {
+    .collector-div iframe{
+        width: 100vw;
+    }
+    .collector-div h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+
+
+}

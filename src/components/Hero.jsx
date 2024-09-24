@@ -15,6 +15,7 @@ function Hero() {
         <img className='bgear' alt='bluegear' src='img/bgear.png' />
         <img alt='clg_image' className='hero-clg-img' src="img/clg.png"/>
         <div className='curtain'></div>
+        <a href='/#'><img className='uparrow' src="img/arrow.png" /></a>
       </div>
     </div>
   );

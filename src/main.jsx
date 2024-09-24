@@ -1,16 +1,20 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 
+import Gallery from './components/gallery.jsx';
 import HomePage from './HomePage.jsx';
-import Event from './components/Event.jsx';
 
-import { aiml, civil, cse, ece, eee, mca, me } from './components/Event_details';
 
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
         
-        //   <Event data={cse}/>
-        <HomePage/>
+         <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage/>} />
+          <Route path="/gallery" element={<Gallery/>} />
+        </Routes>
+    </BrowserRouter>
       
 )
