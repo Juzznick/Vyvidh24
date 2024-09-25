@@ -15,7 +15,7 @@ function HomePage(){
             <AboutVidya/>
             <MainEvents/>
             <Gallery/>
-            <CollectorMsg/>
+            {/* <CollectorMsg/> */}
             <Footer/>
         </div>
     );

@@ -139,7 +139,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: CurtainRaise 2s ease;
+  animation: CurtainRaise 3s ease-in;
   transform: translateY(-90rem); 
 }
 .uparrow{
