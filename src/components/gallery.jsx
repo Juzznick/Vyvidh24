@@ -1,6 +1,5 @@
 import React from "react";
 import "./gallery.css";
-import Navbar from "./navbar";
 
 const Gallery = () => {
     const images = [
@@ -24,8 +23,7 @@ const Gallery = () => {
     ];
     return (
         
-        <div className="gallery-main">
-            <Navbar/>
+        <div className="gallery-main" id='gallery'>
             <h1>Gallery</h1>
             <div className="gallery-container">
                 {images.map((img, index) => (

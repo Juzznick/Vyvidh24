@@ -7,14 +7,18 @@ import HomePage from './HomePage.jsx';
 
 
 import './index.css'
+import Navbar from './components/navbar.jsx';
 
 createRoot(document.getElementById('root')).render(
         
          <BrowserRouter>
+         <Navbar/>
         <Routes>
           <Route path="/" element={<HomePage/>} />
-          <Route path="/gallery" element={<Gallery/>} />
         </Routes>
+        <a href="/#">
+          <img className="uparrow" src="img/arrow.png" />
+        </a>
     </BrowserRouter>
       
 )

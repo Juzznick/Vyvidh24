@@ -139,24 +139,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* animation: CurtainRaise 2s ease;
-  transform: translateY(-90rem); */
-}
-.temp2{
   animation: CurtainRaise 2s ease;
   transform: translateY(-90rem); 
-}
-.curtain button{
-  font-size: 3rem;
-  padding: .5rem 1rem 1rem 1rem;
-  font-family: 'Darker Grotesque';
 }
 .uparrow{
   position: fixed;
   bottom: 2rem;
   right: 2rem;
   rotate: 90deg;
-  z-index: 10;
+  z-index: 1000;
 }
 
 @keyframes CurtainRaise{
@@ -177,14 +168,14 @@
     height: 7rem;
   }
   .ygear{
-    width: 5rem;
+    width: 7rem;
     left: 20rem;
     top: 16rem;
   }
   .bgear{
-    right: 20rem;
-    top: 31rem;
-    width: 5rem;
+    right: 22rem;
+    top: 39rem;
+    width: 6rem;
   }
   .hero-date{
     font-size: 2rem;

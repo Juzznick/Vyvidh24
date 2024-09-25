@@ -4,7 +4,7 @@ import Footer from './components/Footer.jsx';
 import CollectorMsg from './components/collector.jsx';
 import MainEvents from './components/mainevents.jsx';
 import Navbar from './components/navbar.jsx';
-
+import Gallery from './components/gallery.jsx';
 
 
 function HomePage(){
@@ -14,8 +14,8 @@ function HomePage(){
             <Hero/>
             <AboutVidya/>
             <MainEvents/>
+            <Gallery/>
             <CollectorMsg/>
-            <Navbar/>
             <Footer/>
         </div>
     );
