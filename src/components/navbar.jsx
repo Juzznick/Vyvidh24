@@ -27,9 +27,9 @@ function Navbar() {
                     <li className={`nav-item ${active === "gallery" ? 'active' : ''}`}>
                         <a className="nav-link" href="/#gallery" onClick={() => setActive('gallery')}>GALLERY</a>
                     </li>
-                    <li className={`nav-item ${active === "collector" ? 'active' : ''}`}>
+                    {/* <li className={`nav-item ${active === "collector" ? 'active' : ''}`}>
                         <a className="nav-link" href="/#collector" onClick={() => setActive('collector')}>COLLECTOR MESSAGE</a>
-                    </li>
+                    </li> */}
                     <li className={`nav-item ${active === "contact" ? 'active' : ''}`}>
                         <a className="nav-link" href="/#contact" onClick={() => setActive('contact')}>CONTACT</a>
                     </li>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Griaste';
-  src: local('Griaste'), url(../public/fonts/Griaste.otf) format('opentype');
+  src: local('Griaste'), url(/fonts/Griaste.otf) format('opentype');
 }
 
 *{
