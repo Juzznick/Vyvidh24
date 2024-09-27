@@ -83,6 +83,9 @@
 @media (max-width: 768px) {
     .navbar-collapse {
         display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 
     .navbar-container {
@@ -90,6 +93,7 @@
         height: 5rem;
         justify-content: flex-start;
         width: 100%;
+        
     }
 
     .navbar-list {

@@ -1,40 +1,60 @@
 
-.mainevent-div{
+
+.mainevent-div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
     height: 100vh;
     background-color: whitesmoke;
-    padding-top: 10rem;
+    margin-bottom: 20rem;
 }
-.eventcard img{
+
+.cards-div {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    height: 15rem;
-    object-fit: cover;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
 }
-.eventcard{
+
+.eventcard {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: white .1rem solid;
+    border: white 0.1rem solid;
     background-color: rgb(255, 255, 255);
     width: 23rem;
     cursor: pointer;
     position: relative;
+    transition: transform 0.3s ease;
 }
-.eventcard h5{
-    font-family: 'Darker Grotesque';
+
+.eventcard:hover {
+    transform: scale(1.05);
+}
+
+.eventcard img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.eventcard h5 {
+    font-family: 'Darker Grotesque', sans-serif;
     font-size: 2rem;
 }
-.eventcard p{
-    font-family: 'Darker Grotesque';
+
+.eventcard p {
+    font-family: 'Darker Grotesque', sans-serif;
     font-size: 1.3rem;
     text-align: center;
 }
-.eventcard-desc{
+
+.eventcard-desc {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,52 +64,94 @@
     bottom: -29rem;
     background-color: #ffffff;
     width: 100%;
+    transition: all 0.3s ease;
 }
 
-
-.cards-div{
-    display: flex;
-    justify-content:space-around;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-.mainevent-div h1{
-    font-weight: 10;
-    font-size: 10rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    color: #484848;
-}
-
-.eventcard-desc button{
-    font-family: 'Darker Grotesque';
+.eventcard-desc button {
+    font-family: 'Darker Grotesque', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
     background-color: #3a3a3a;
     color: white;
-    padding: .2rem 1rem .2rem 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    cursor: pointer;
-}
-.eventcard-desc a{
-    position: absolute;
+    padding: 0.2rem 1rem;
     bottom: 0;
     width: 100%;
     cursor: pointer;
 }
 
+.eventcard-desc a {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 
-@media only screen and (max-width: 600px) {
-    .mainevent-div h1{
+.mainevent-div h1 {
+    font-weight: 10;
+    font-size: 8rem;
+    margin-bottom: 3rem;
+    color: #484848;
+}
+
+.reg-button{
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 1024px) {
+    .mainevent-div h1 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainevent-div h1 {
+        font-size: 5rem;
+    }
+    .eventcard {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainevent-div h1 {
         font-size: 4rem;
     }
-    .eventcard{
-        margin-bottom: 20rem;
-    }
     .mainevent-div{
-        height: auto;
+        margin-top: 15rem;
+    }
+    
+    .cards-div {
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .eventcard {
+        width: 90%;
+        max-width: 22rem;
+    }
+
+    .eventcard-desc {
+        padding: 1rem;
+        min-height: 20rem;
+        position: relative;
+        bottom: 0;
+    }
+
+    .eventcard-desc button {
+        font-size: 1.2rem;
+    }
+
+    .eventcard img {
+        height: 12rem;
+    }
+
+    .eventcard p {
+        font-size: 1.2rem;
+    }
+
+    .eventcard h5 {
+        font-size: 1.8rem;
     }
 }

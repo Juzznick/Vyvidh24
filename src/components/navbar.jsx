@@ -24,12 +24,15 @@ function Navbar() {
                     <li className={`nav-item ${active === "main_events" ? 'active' : ''}`}>
                         <a className="nav-link" href="/#main_events" onClick={() => setActive('main_events')}>MAIN EVENTS</a>
                     </li>
+                    <li className={`nav-item ${active === "dept_events" ? 'active' : ''}`}>
+                        <a className="nav-link" href="/#dept_events" onClick={() => setActive('dept_events')}>DEPARTMENT EVENTS</a>
+                    </li>
                     <li className={`nav-item ${active === "gallery" ? 'active' : ''}`}>
                         <a className="nav-link" href="/#gallery" onClick={() => setActive('gallery')}>GALLERY</a>
                     </li>
-                    {/* <li className={`nav-item ${active === "collector" ? 'active' : ''}`}>
+                    <li className={`nav-item ${active === "collector" ? 'active' : ''}`}>
                         <a className="nav-link" href="/#collector" onClick={() => setActive('collector')}>COLLECTOR MESSAGE</a>
-                    </li> */}
+                    </li>
                     <li className={`nav-item ${active === "contact" ? 'active' : ''}`}>
                         <a className="nav-link" href="/#contact" onClick={() => setActive('contact')}>CONTACT</a>
                     </li>

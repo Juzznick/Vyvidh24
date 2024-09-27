@@ -3,7 +3,7 @@ function CollectorMsg(){
     return(
         <div className="collector-div " id='collector'>
             <h1>Collector's Message</h1>
-            <iframe src="https://drive.google.com/file/d/1Plle4VVAhN5g_Ma5t0tB_3HiDphPa6kb/preview" width="1000" height="600" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1VPOuWm0E6JZLPGbKOvKm7dgnqTd7kQ56/preview" allow="autoplay"></iframe>
         </div>
     );
 }
