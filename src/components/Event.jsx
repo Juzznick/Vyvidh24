@@ -9,10 +9,10 @@ function Event({data}) {
         var button = document.getElementsByClassName("event-btn")[i];
         if (element.style.display === "" || element.style.display === "block") {
             element.style.display = 'none';
-            button.innerHTML = "<img src='public/img/arrowd.png' />";
+            button.innerHTML = "<img src='/img/arrowd.png' />";
         } else {
             element.style.display = "block";
-            button.innerHTML = "<img src='public/img/arrowu.png' />";
+            button.innerHTML = "<img src='/img/arrowu.png' />";
         }
     };
 
