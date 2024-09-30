@@ -382,7 +382,7 @@ const civil = {
             "desc": "A CADD drawing is provided for the participants and the one who complete the replica of given drawing first, meeting all the provided conditions will win the game.",
             "date": "Oct 04",
             "time": "10:30 AM",
-            "fee": "100",
+            "fee": "50 per person",
             "venue": "CE CADD Lab",
             "faculty": "Ms Nirmala Krishnan",
             "student": "Elred Chiramel & Aiswarya P"
@@ -402,7 +402,7 @@ const civil = {
             "desc": "Participants are given fixed amount of materials to cast a concrete block with their favourable mix ratios ,and strength checking is done after a week to select the winner.",
             "date": "Oct 04",
             "time": "2 PM",
-            "fee": "100 per Group",
+            "fee": "50 per Group",
             "venue": "MT Lab",
             "faculty": "Ms Ardra P Nair",
             "student": "Sachin E A"
@@ -436,7 +436,7 @@ const civil = {
             "fee": "300 per team",
             "venue": "NB 103",
             "faculty": "Ms Anjaly P S",
-            "student": "Vilfred Paul & Jithu Sunilkumar",
+            "student": "Wilfred Paul",
         },
         {
             "title": "NASHVILLE",
@@ -453,7 +453,7 @@ const civil = {
             "desc": "Dynamic spot dance choreography event where talented dancers anre performing intricate routines on the spot.",
             "date": "Oct 05",
             "time": "12:00 - 2 PM",
-            "fee": "110",
+            "fee": "50",
             "venue": "North Block Front",
             "faculty": "Mr Kiran Babu",
             "student": "Palijunath T P & Thomas Varghese"
@@ -463,7 +463,7 @@ const civil = {
             "desc": "A game played as a team of 3",
             "date": "Oct 04 - 05",
             "time": "9:30 AM - 3:30 PM (Oct 4) 9:30 AM - 3:00 PM (Oct 5)",
-            "fee": "100 per team",
+            "fee": "60 per team",
             "venue": "NB 014",
             "faculty": "Ms Chithra M",
             "student": "Jithin, Amirthesh"
@@ -474,7 +474,7 @@ const civil = {
             "date": "Oct 04 - 05",
             "time": "9:30 AM - 4:00 PM (Oct 4) 9:30 AM - 3:00 PM (Oct 5)",
             "fee": "20",
-            "venue": "NB 014",
+            "venue": "NB 011",
             "faculty": "Ms Anagha V A",
             "student": "Amal Krishna K M & Celin K Jose"
         },
